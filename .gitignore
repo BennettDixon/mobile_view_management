@@ -1,0 +1,9 @@
+*pycache*
+*migrations*
+database/data/
+*secrets*
+*api_key*
+*docker-certs*
+*docker-data*
+.DS_STORE
+node_modules
