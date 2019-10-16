@@ -2,21 +2,9 @@ import React from "react";
 import { MobileContext } from ".";
 
 /**
- * PROPER USE:
- * ```
- * withIsMobileView(MobileComponentToRender)(DesktopComponentToRender);
- * ```
+ * provides the prop `isMobileView` to the component that the HOC parents
  *
- * COMPOSE USE:
- * Using with compose can get a bit weird, recommended to compose a component then use that with this HOC.
- * Example:
- * ```
- * const myMobileComponent = compose(withSomething, withSomethingElse)(MobileComponent);
- * const myDesktopComponent = compose(withSomething)(DesktopComponent);
- * export default withIsMobileView(myMobileComponent)(myDesktopComponent);
- * ```
- *
- * @param {*} MobileComponent the component to render if it's a mobile view
+ * @param {*} Component the component parent for the consumer HOC
  *
  */
 const withIsMobileView = Component => {
