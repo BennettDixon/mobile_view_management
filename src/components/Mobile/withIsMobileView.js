@@ -1,5 +1,5 @@
 import React from "react";
-import { MobileContext } from ".";
+import { MobileContext } from "./context";
 
 /**
  * provides the prop `isMobileView` to the component that the HOC parents

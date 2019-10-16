@@ -1,5 +1,5 @@
 import React from "react";
-import { MobileContext } from ".";
+import { MobileContext } from "./context";
 
 const INITIAL_STATE = {
   size: {
