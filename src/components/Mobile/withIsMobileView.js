@@ -1,5 +1,5 @@
 import React from "react";
-import { MobileContext } from "./context";
+import IsMobileContext from "./context";
 
 /**
  * provides the prop `isMobileView` to the component that the HOC parents
@@ -11,11 +11,11 @@ const withIsMobileView = Component => {
   class withIsMobileView extends React.Component {
     render() {
       return (
-        <MobileContext.Consumer>
+        <IsMobileContext.Consumer>
           {isMobileView => {
             return <Component {...this.props} isMobileView={isMobileView} />;
           }}
-        </MobileContext.Consumer>
+        </IsMobileContext.Consumer>
       );
     }
   }

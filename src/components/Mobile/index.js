@@ -1,5 +1,5 @@
 import withIsMobileView from "./withIsMobileView";
 import withIsMobileViewProvider from "./withIsMobileViewProvider";
-import MobileContext from "./context";
+import IsMobileContext from "./context";
 
-export { MobileContext, withIsMobileView, withIsMobileViewProvider };
+export { IsMobileContext, withIsMobileView, withIsMobileViewProvider };

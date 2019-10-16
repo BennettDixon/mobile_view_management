@@ -1,4 +1,5 @@
 import React from "react";
-const MobileContext = React.createContext(null);
 
-export default MobileContext;
+const IsMobileContext = React.createContext(false);
+
+export default IsMobileContext;

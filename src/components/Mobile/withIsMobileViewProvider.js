@@ -1,5 +1,5 @@
 import React from "react";
-import { MobileContext } from "./context";
+import IsMobileContext from "./context";
 
 const INITIAL_STATE = {
   size: {
@@ -34,9 +34,9 @@ const withIsMobileViewProvider = Component => {
     render() {
       const isMobileView = this.state.size.width <= 600;
       return (
-        <MobileContext.Provider value={isMobileView}>
+        <IsMobileContext.Provider value={isMobileView}>
           <Component {...this.props}></Component>
-        </MobileContext.Provider>
+        </IsMobileContext.Provider>
       );
     }
   }
