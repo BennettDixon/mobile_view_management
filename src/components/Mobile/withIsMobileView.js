@@ -4,7 +4,7 @@ import { MobileContext } from ".";
 /**
  * provides the prop `isMobileView` to the component that the HOC parents
  *
- * @param {*} Component the component parent for the consumer HOC
+ * @param {*} Component the child component for the consumer HOC
  *
  */
 const withIsMobileView = Component => {
