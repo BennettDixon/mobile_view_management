@@ -27,4 +27,4 @@ Navigate there to view the project & play with window resizing / mobile views.
 
 ## :mag: License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/BennettDixon/mobile_view_management/blob/master/LICENCE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/BennettDixon/mobile_view_management/blob/master/LICENSE) file for details
