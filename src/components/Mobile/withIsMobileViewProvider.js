@@ -35,7 +35,7 @@ const withIsMobileViewProvider = Component => {
       const isMobileView = this.state.size.width <= 600;
       return (
         <IsMobileContext.Provider value={isMobileView}>
-          <Component {...this.props}></Component>
+          <Component {...this.props} />
         </IsMobileContext.Provider>
       );
     }
