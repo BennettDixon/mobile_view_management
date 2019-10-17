@@ -1,7 +1,5 @@
 import React from "react";
 
-import { withIsMobileView } from "../Mobile";
-
 // mobile landing page component
 const MobileLandingPage = () => {
   return <h1>Mobile Landing Page</h1>;
@@ -27,4 +25,4 @@ class LandingPage extends React.Component {
   }
 }
 
-export default withIsMobileView(LandingPage);
+export default LandingPage;
