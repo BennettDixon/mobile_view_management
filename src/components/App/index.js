@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 
-import { withIsMobileViewProvider } from "../Mobile";
-
 import LandingPage from "../Landing";
 
 class App extends Component {
@@ -11,4 +9,4 @@ class App extends Component {
     return <LandingPage />;
   }
 }
-export default withIsMobileViewProvider(App);
+export default App;
