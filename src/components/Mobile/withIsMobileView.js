@@ -8,7 +8,7 @@ import IsMobileContext from "./context";
  *
  */
 const withIsMobileView = Component => {
-  class withIsMobileView extends React.Component {
+  class WithIsMobileView extends React.Component {
     render() {
       return (
         <IsMobileContext.Consumer>
@@ -19,7 +19,7 @@ const withIsMobileView = Component => {
       );
     }
   }
-  return withIsMobileView;
+  return WithIsMobileView;
 };
 
 export default withIsMobileView;
